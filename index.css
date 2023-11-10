@@ -8,6 +8,7 @@
 }
 
 * {
+    box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
 }
 
@@ -15,13 +16,18 @@ body {
     background-color: var(--dark-blue);
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 98vh;
+    overflow-x:hidden;
+    margin: 0;
 }
 
 .app-container {
     display: flex;
     flex-grow: 1;
     justify-content: center;
+    max-width: 90%;
 }
 
 .advice-container {
@@ -41,19 +47,22 @@ body {
     color: var(--light-cyan);
     font-size: 28px;
     margin: 20px 30px;
+    margin-bottom: 25px;
 }
 
 .advice-id {
     color: var(--neon-green);
     font-size: 13px;
     letter-spacing: 5px;
+    margin-top: 40px;
+    margin-bottom: 25px;
 }
 
 /* Dice button */
 
 .button-container {
     position: relative;
-    bottom: -15px;
+    bottom: -25px;
 }
 
 #dice-button {
@@ -61,14 +70,14 @@ body {
     border: none;
     background-color: var(--neon-green);
     display: flex;
-    width: 2rem;
-    height: 2rem;
+    width: 3.5rem;
+    height: 3.5rem;
     justify-content: center;
     align-items: center;
 }
 
 .dice-image {
-    width: 1rem;
+    width: 1.4rem;
 }
 
 /* Footer styling */
@@ -91,4 +100,13 @@ body {
 p > a {
     text-decoration: none;
     color: var(--neon-green);
+}
+
+/* Media queries */
+
+@media (min-width: 768px) {
+   .advice-container {
+    max-width: 568px;
+   }
+    
 }
