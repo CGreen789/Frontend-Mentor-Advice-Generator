@@ -112,11 +112,8 @@ p > a {
 }
 
 /* Media queries */
-
 @media (min-width: 768px) {
    .advice-container {
-    /* width: fit-content; */
     max-width: 500px;
-   }
-    
+   } 
 }

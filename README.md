@@ -13,7 +13,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -25,11 +24,11 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Generate a new piece of advice by clicking the dice icon
 
-### Screenshot
+## Screenshot
 
 ![](./images/Screenshot%202023-11-10%20142451.png)
 
-### Links
+## Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [https://cgreen789.github.io/Frontend-Mentor-Advice-Generator/](https://cgreen789.github.io/Frontend-Mentor-Advice-Generator/)
@@ -52,7 +51,7 @@ Users should be able to:
 - Checking responsiveness of app as I made it for mobile-first
 - Adding hover states (which I definitely nearly forgot...)
 
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -60,7 +59,7 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-### What I learned
+## What I learned
 
 Few things to take away from this mini-project:
 
