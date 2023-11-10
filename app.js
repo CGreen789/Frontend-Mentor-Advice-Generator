@@ -19,6 +19,7 @@ const getAdvice = () => {
 const diceButton = document.querySelector("#dice-button");
 diceButton.addEventListener("click", () => getAdvice());
 
+// Render different images depending on screen size
 window.addEventListener("DOMContentLoaded", function () {
   const patternDivider = document.getElementById("pattern-divider");
 
