@@ -13,7 +13,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-
 ## Overview
 
 ### The challenge
@@ -30,7 +29,7 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/fetching-from-an-api-using-vanilla-js-and-flexbox-0IOzsijuV\_](https://www.frontendmentor.io/solutions/fetching-from-an-api-using-vanilla-js-and-flexbox-0IOzsijuV_)
 - Live Site URL: [https://cgreen789.github.io/Frontend-Mentor-Advice-Generator/](https://cgreen789.github.io/Frontend-Mentor-Advice-Generator/)
 
 ## My process
