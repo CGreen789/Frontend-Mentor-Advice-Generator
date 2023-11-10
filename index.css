@@ -11,10 +11,84 @@
     font-family: 'Manrope', sans-serif;
 }
 
-.advice-box{
-    border: 1px solid var(--dark-blue);
+body {
+    background-color: var(--dark-blue);
+    display: flex;
+    flex-direction: column;
+    height: 98vh;
 }
 
-/* footer {
+.app-container {
     display: flex;
-} */
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.advice-container {
+    background-color: var(--dark-grayish-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 10px;
+    border-radius: 10px;
+}
+
+.advice-box{
+    text-align: center;
+}
+
+.advice {
+    color: var(--light-cyan);
+    font-size: 28px;
+    margin: 20px 30px;
+}
+
+.advice-id {
+    color: var(--neon-green);
+    font-size: 13px;
+    letter-spacing: 5px;
+}
+
+/* Dice button */
+
+.button-container {
+    position: relative;
+    bottom: -15px;
+}
+
+#dice-button {
+    border-radius: 50%;
+    border: none;
+    background-color: var(--neon-green);
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice-image {
+    width: 1rem;
+}
+
+/* Footer styling */
+.attribution {
+    flex-grow: 0;
+    font-size: small;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--light-cyan);
+}
+
+.footer > p {
+    margin: 0;
+}
+
+p > a {
+    text-decoration: none;
+    color: var(--neon-green);
+}

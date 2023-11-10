@@ -56,6 +56,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Render the quote on the page
 - Hook up the button to make a new API call on button click
 
+### 10/11
+
+- 
+
 ### Built with
 
 - Semantic HTML5 markup

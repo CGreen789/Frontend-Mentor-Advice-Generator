@@ -12,7 +12,7 @@ fetch(apiURL)
     const adviceIDPlaceholder = document.querySelector("#advice-id")
     const advicePlaceholder = document.querySelector("#advice")
     advicePlaceholder.innerText = advice
-    adviceIDPlaceholder.innerText = `ADVICE ${adviceID}`
+    adviceIDPlaceholder.innerText = `ADVICE #${adviceID}`
 })
 }
 // Fetch a new API call on button click
