@@ -76,6 +76,11 @@ body {
     align-items: center;
 }
 
+#dice-button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 30px var(--neon-green);
+}
+
 .dice-image {
     width: 1.4rem;
 }
@@ -102,11 +107,16 @@ p > a {
     color: var(--neon-green);
 }
 
+#pattern-divider {
+    max-width: 90%;
+}
+
 /* Media queries */
 
 @media (min-width: 768px) {
    .advice-container {
-    max-width: 568px;
+    /* width: fit-content; */
+    max-width: 500px;
    }
     
 }
